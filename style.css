@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+header{
+    margin-left: 485px;
+    align-items: center;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+header img{
+    size: 90.6px;
+    height: 26.9;
+    margin-top: 37px;
+    margin-right: 122.4px;
+}
+
+.links{
+    margin-top: 38px;
+}
+
+.links a{
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+    font-size: 16px;
+    width: 42px;
+    margin: 0 15px;
+}
+
+.links a:hover{
+    font-weight: bold;
+}
+
+
+/*=== WRAPPER ===*/
+
+#wrapper{
+    display: flex;
+    background-color: #FBDFDB;
+    max-width: 940px;
+    height: 366px;
+    margin: 0 auto;
+    margin-top: 36px;
+    border-radius: 30px;
+}
+
+#wrapper .info{
+    margin-top: 117px;
+    margin-left: 60px;
+    text-align: left;
+    line-height: 28px;
+}
+
+#wrapper .info h1{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#wrapper .info p{
+    width: 316px;
+    height: 84px;
+    font-size: 18px;
+    opacity: 0.7;
+    
+}
+
+#wrapper img{
+    width: 216px;
+    height: 300px;
+    margin-top: 66px;
+    margin-right: 100px;
+    margin-left: 259px;
+}
+
+
+/* === CARDS === */
+
+#title{
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    margin-right: 765px;
+}
+
+.recipes{
+    max-width: 940px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.recipe_image-container img{
+    width: 300px;
+    height: 140px;
+    border-radius: 15px;
+}
+
+.card .info .nome{
+    font-size: 18px;
+}
+
+.card .recipe_info .chef{
+    font-size: 14px;
+    color: #777777
+}
+
+footer{
+    margin-top: 50px;
+    height: 62px;
+    background-color: #EEEEEE;
+    
+}
+
+footer p{
+    font-size: 14px;
+    line-height: 6.5vh;
+    text-align: center;
+    color: #999999;
+}
+
+
