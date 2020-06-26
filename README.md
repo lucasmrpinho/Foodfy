@@ -4,7 +4,7 @@
     </br>
 </h2>
 
-<img alt="paginagif" src="assets\Foodfy.gif"/>
+<img alt="paginagif" src="public\assets\Foodfy.gif"/>
 
 
 <h2 aling="center">      
@@ -32,7 +32,7 @@ Esse repositório foi criado para o projeto que desenvolvi durante o **Bootcamp 
 
 
 
-<img alt="paginagif" src="assets\Foodfyprint.png" />
+<img alt="paginagif" src="public\assets\Foodfyprint.png" />
 
 ---
 

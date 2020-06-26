@@ -26,6 +26,13 @@ server.get("/receitas", (req,res) => {
     return res.render('receitas',{cards: recipes})
 })
 
+server.get("/recipe-info/:id", (req,res) => {
+    const recipeId = req.params.id
+    const recipe = recipes[recipeId]
+
+
+    return res.render('recipe-info',{ recipe })
+})
 
 
 
