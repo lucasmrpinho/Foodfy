@@ -1,0 +1,63 @@
+{% extends "layouts.njk" %}
+
+
+    {% block head %}
+
+        <title>Foodfy - Receitas</title>
+        
+    {% endblock %}
+
+{% block content %}
+
+    <section class="recipes">
+
+        {% for card in cards %}
+        <div class="card">
+            <div class="recipe_image-container">
+               <img src="{{card.image}}" alt= "Logo de {{card.title}}">
+            </div>
+            <div class="recipe_info">
+                <p class="nome">{{card.title}}</p>
+                <p class="chef">{{card.author}}</p>
+            </div>
+        </div>
+        {% endfor %}
+
+        {% for card in cards %}
+        <div class="card">
+            <div class="recipe_image-container">
+               <img src="{{card.image}}" alt= "Logo de {{card.title}}">
+            </div>
+            <div class="recipe_info">
+                <p class="nome">{{card.title}}</p>
+                <p class="chef">{{card.author}}</p>
+            </div>
+        </div>
+        {% endfor %}
+
+    </section>
+
+    <div class="modal_overlay">
+
+        <div class="modal">
+
+            <div class="modal_image-container">
+                <img src="assets/burger.png">
+            </div>
+
+            <div class="modal_content">
+                <h1 class="nome"></h1>
+                <p class="chef"></p>
+            </div>
+
+            <a class="modal_close">
+                <P>Fechar modal</P>
+            </a>
+
+        </div>
+
+    </div>
+
+{% endblock %}
+
+    
