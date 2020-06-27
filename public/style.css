@@ -235,3 +235,54 @@ footer p{
     visibility: visible;
 }
 
+
+/*=== RECEITA ===*/
+
+div.wrapper-receitas{
+    margin: 0 auto;
+    max-width: 940px;
+}
+
+.wrapper-receitas img{
+    width: 940px;
+    height: 280px;
+    border-radius: 16px;
+    object-fit: cover;
+}
+
+.wrapper-receitas-titulo{
+    margin-top: 50px;
+    margin-bottom: 11px;
+    text-align: center;
+}
+
+.wrapper-receitas-titulo h1{ 
+    font-size: 36px;
+}
+
+.wrapper-receitas-titulo p{
+    font-size: 20px;
+    color: #777777;
+}
+
+div#topico{
+    max-width: 940px;
+    margin:39px auto 0;
+    line-height: 28px;
+}
+
+div#topico h2{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+div#topico li{
+    margin-left: 18px;
+}
+
+div#topico li, p{
+    font-size: 18px;
+    color:  #444444;
+}
+
+

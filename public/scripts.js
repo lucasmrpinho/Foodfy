@@ -1,17 +1,11 @@
-const modalOverlay = document.querySelector('.modal_overlay')
-const modal = document.querySelector('.modal')
+
 const cards = document.querySelectorAll('.card')
 
-for(let card of cards){
-    card.addEventListener('click', () =>{
-        cardId = card.getAttribute('id')
-        cardName = card.querySelector('p.nome').innerHTML
-        cardChef = card.querySelector('p.chef').innerHTML
-        modalOverlay.querySelector('img').src = `assets/${cardId}.png`
-        modalOverlay.querySelector('h1').innerHTML = cardName
-        modalOverlay.querySelector('p').innerHTML = cardChef
-        modalOverlay.classList.add('active')
-    })
+for (let i = 0; i < cards.length; i++) {
+    const card = cards[i];
+    card.addEventListener("click", () => {
+        window.location.href = `/receitas/${i}`;
+  });
 }
 
 document.querySelector('.modal_close').addEventListener('click', () => {
